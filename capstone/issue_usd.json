@@ -1,0 +1,27 @@
+{
+"commands": { 
+"commands": [
+   {
+     "CreateAndExerciseCommand": {
+       "templateId": "2fa7fec894ed2f78a52c03d35cd2bbd283dd2f415fd6bf40510c50a6445bbd2b:Iou:Iou",
+       "createArguments": {
+         "issuer": "USD_Bank::12207d0415a67bbb55909952c8f5045ad9a3a7ac6bbc8233451dea7faf01e9dbf6ea",
+         "owner": "USD_Bank::12207d0415a67bbb55909952c8f5045ad9a3a7ac6bbc8233451dea7faf01e9dbf6ea",
+         "currency": "USD",
+         "amount": "110.0",
+         "observers": []
+       },
+       "choice": "Iou_Transfer",
+       "choiceArgument": {
+         "newOwner": "Bob::12207d0415a67bbb55909952c8f5045ad9a3a7ac6bbc8233451dea7faf01e9dbf6ea"
+       }
+     }
+   }
+ ],
+ "userId": "usd-bank-user",
+ "commandId": "issue-usd-to-bob-1",
+ "actAs": [
+   "USD_Bank::12207d0415a67bbb55909952c8f5045ad9a3a7ac6bbc8233451dea7faf01e9dbf6ea"
+ ]
+}
+}

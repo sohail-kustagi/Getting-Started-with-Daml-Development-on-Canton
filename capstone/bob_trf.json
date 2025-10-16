@@ -1,0 +1,19 @@
+{
+ "commands": {
+ "commands": [
+   {
+     "ExerciseCommand": {
+       "templateId": "2fa7fec894ed2f78a52c03d35cd2bbd283dd2f415fd6bf40510c50a6445bbd2b:Iou:IouTransfer",
+       "contractId": "00a56a7ac3d5ba894d9019a4cca8ee388000ab23b9f42f23a9c86b2c4e8c4cfb0aca11122086f8c162e273e6c6510dfbe08d9de2c59119982ded37ffebfff253cd550681f4",
+       "choice": "IouTransfer_Accept",
+       "choiceArgument": {}
+     }
+   }
+ ],
+ "userId": "bob-user",
+ "commandId": "bob-accept-usd-transfer",
+ "actAs": [
+   "Bob::12207d0415a67bbb55909952c8f5045ad9a3a7ac6bbc8233451dea7faf01e9dbf6ea"
+ ]
+}
+}
